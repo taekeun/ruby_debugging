@@ -16,7 +16,7 @@ class Information
   def initialize(language, version, workshop)
     @language = language
     @version = version
-    workshop = workshop
+    @workshop = workshop
   end
 
   def to_s
